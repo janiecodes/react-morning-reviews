@@ -7,7 +7,7 @@ class List extends Component{
     constructor(){
         super()
         this.state = {
-            movies: movies
+            movies: movies 
         }
         this.addMovie = this.addMovie.bind(this)
     }
